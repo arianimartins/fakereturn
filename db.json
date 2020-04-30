@@ -1,11 +1,75 @@
 {
-    "error": {
-    "success": false,
-    "fields": [
-        {
-            "code": "MENSAGEM_NAO_PREVISTA",
-            "parameter": ""
+    "erro_generico":{
+        "success": false,
+        "fields":
+        [
+            {
+                "code": "ERR_TREASURE_GET_DATA",
+                "parameter": ""
+                
+            }
+        ],
+        "body": {
+            "code": -1,
+            "message": "Mensagem de erro"
+                
         }
-    ]
+        
+    },
+    
+    "error_mercado":{
+        "success":false,
+        "fields":
+        [
+            {
+                "code":"ERR_TREASURE_CLOSED_MARKET",
+                "parameter":""
+            }
+        ],
+        "body" :{
+            "code":-2,
+            "message":"Mensagem de erro"
+        }
+    },
+    
+    "erro_horario":{
+        "success":false,
+        "fields":
+        [
+            {
+                "code":"ERR_TREASURE_TRADING_HOUR_CLOSED",
+                "parameter":""
+            }
+        ],
+        "body" :{
+            "code":-3,
+            "message":"Mensagem de erro"
+        }
+    },
+
+    "erro_desconhecido":{
+        "success":false,
+        "fields":
+        [
+            {
+                "code":"CODE_NAO_MAPEADO",
+                "parameter":""
+            }
+        ],
+        "body" :{
+            "code":-4,
+            "message":"Mensagem de erro"
+        }
+    },
+
+    "erro_body":{
+        "success":false,
+        "fields":
+        [
+            {
+                "code":"CODE_NAO_MAPEADO",
+                "parameter":""
+            }
+        ]
     }
 }
