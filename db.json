@@ -1,0 +1,13 @@
+{
+    "success": false,
+    "fields": [
+        {
+            "code": "ERR_TREASURE_TRADING_HOUR_CLOSED",
+            "parameter": ""
+        }
+    ],
+    "body" : {
+        "code":-1511,
+        "message":"mensagem de erro horário"
+    }
+}
