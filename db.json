@@ -3,7 +3,7 @@
     "success": false,
     "fields": [
         {
-            "code": "ERR_TREASURE_CLOSED_MARKET",
+            "code": "ERR_TREASURE_GET_DATA",
             "parameter": ""
         }
     ],
