@@ -1,4 +1,5 @@
-"error":{
+{
+    "error": {
     "success": false,
     "fields": [
         {
@@ -9,5 +10,6 @@
     "body" : {
         "code":-1511,
         "message":"mensagem de erro horário"
+    }
     }
 }
