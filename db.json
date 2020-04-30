@@ -3,7 +3,7 @@
     "success": false,
     "fields": [
         {
-            "code": "ERR_TREASURE_GET_DATA",
+            "code": "MENSAGEM_NAO_PREVISTA",
             "parameter": ""
         }
     ],
