@@ -71,5 +71,54 @@
                 "parameter":""
             }
         ]
-    }
+    },
+
+    "sucesso":[
+        {
+            "stockMarket": 4489,
+            "code": 178,
+            "name": "Tesouro Direto X",
+            "type": {
+                "code": 4,
+                "name": "LFT"
+            },
+            "selic": 210100,
+            "isin": "XXX",
+            "emissionDate": "2019-01-31T00:00:00.0000000-02:00",
+            "expirationDate": "2025-03-01T00:00:00.0000000-03:00",
+            "business": 1,
+            "baseValue": 10000.50,
+            "buyValue": 10000.50,
+            "buyRateValue": 0.02,
+            "saleValue": 10000.50,
+            "saleRateValue": 0.03,
+            "indexer": {
+                "code": 17,
+                "name": "SELIC"
+            }
+        },
+        {
+            "stockMarket": 4489,
+            "code": 179,
+            "name": "Tesouro Direto Y",
+            "type": {
+                "code": 1,
+                "name": "LTN"
+            },
+            "selic": 100000,
+            "isin": "YYY",
+            "emissionDate": "2019-01-31T00:00:00.0000000-02:00",
+            "expirationDate": "2022-01-01T00:00:00.0000000-03:00",
+            "business": 1,
+            "baseValue": 800.5,
+            "buyValue": 800.5,
+            "buyRateValue": 7.50,
+            "saleValue": 800.50,
+            "saleRateValue": 7.50,
+            "indexer": {
+                "code": 19,
+                "name": "prefixado"
+            }
+        }
+    ]}
 }
