@@ -62,17 +62,6 @@
         }
     },
 
-    "erro_body":{
-        "success":false,
-        "fields":
-        [
-            {
-                "code":"CODE_NAO_MAPEADO",
-                "parameter":""
-            }
-        ]
-    },
-
     "sucesso":[
         {
             "stockMarket": 4489,
