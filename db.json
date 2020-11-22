@@ -1,114 +1,107 @@
 {
-    "erro_generico":{
-        "success": false,
-        "fields":
-        [
-            {
-                "code": "ERR_TREASURE_GET_DATA",
-                "parameter": ""
-                
-            }
-        ],
-        "body": {
-            "code": -1,
-            "message": "Mensagem de erro"
-                
-        }
-        
-    },
-    
-    "erro_mercado":{
-        "success":false,
-        "fields":
-        [
-            {
-                "code":"ERR_TREASURE_CLOSED_MARKET",
-                "parameter":""
-            }
-        ],
-        "body" :{
-            "code":-2,
-            "message":"Mensagem de erro"
-        }
-    },
-    
-    "erro_horario":{
-        "success":false,
-        "fields":
-        [
-            {
-                "code":"ERR_TREASURE_TRADING_HOUR_CLOSED",
-                "parameter":""
-            }
-        ],
-        "body" :{
-            "code":-3,
-            "message":"Mensagem de erro"
-        }
-    },
-
-    "erro_desconhecido":{
-        "success":false,
-        "fields":
-        [
-            {
-                "code":"CODE_NAO_MAPEADO",
-                "parameter":""
-            }
-        ],
-        "body" :{
-            "code":-4,
-            "message":"Mensagem de erro"
-        }
-    },
-
-    "sucesso":[
+    "tudo":[
         {
-            "stockMarket": 4489,
-            "code": 178,
-            "name": "Tesouro Direto X",
-            "type": {
-                "code": 4,
-                "name": "LFT"
-            },
-            "selic": 210100,
-            "isin": "XXX",
-            "emissionDate": "2019-01-31T00:00:00.0000000-02:00",
-            "expirationDate": "2025-03-01T00:00:00.0000000-03:00",
-            "business": 1,
-            "baseValue": 10000.50,
-            "buyValue": 10000.50,
-            "buyRateValue": 0.02,
-            "saleValue": 10000.50,
-            "saleRateValue": 0.03,
-            "indexer": {
-                "code": 17,
-                "name": "SELIC"
-            }
+            "transactionDate": "2020-11-18T12:14:24.0000000-03:00",
+            "weekDay": "Quarta-feira",
+            "description": "Tesouro Prefixado 2022",
+            "type": "Aplicação",
+            "value": 57.41,
+            "status": "Solicitada"
         },
         {
-            "stockMarket": 4489,
-            "code": 179,
-            "name": "Tesouro Direto Y",
-            "type": {
-                "code": 1,
-                "name": "LTN"
-            },
-            "selic": 100000,
-            "isin": "YYY",
-            "emissionDate": "2019-01-31T00:00:00.0000000-02:00",
-            "expirationDate": "2022-01-01T00:00:00.0000000-03:00",
-            "business": 1,
-            "baseValue": 800.5,
-            "buyValue": 800.5,
-            "buyRateValue": 7.50,
-            "saleValue": 800.50,
-            "saleRateValue": 7.50,
-            "indexer": {
-                "code": 19,
-                "name": "prefixado"
-            }
-        }
-    ]
-    
+            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
+            "weekDay": "Terça-feira",
+            "description": "Tesouro Prefixado 2025",
+            "type": "Resgate",
+            "value": 1101.07,
+            "status": "Realizada"
+        },
+        {
+            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
+            "weekDay": "Terça-feira",
+            "description": "Tesouro Prefixado 2022",
+            "type": "Aplicação",
+            "value": 1234.56,
+            "status": "Cancelada"
+        },
+        {
+            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
+            "weekDay": "Terça-feira",
+            "description": "Tesouro Prefixado 2022",
+            "type": "Aplicação",
+            "value": 1234.56,
+            "status": "Agendada"
+        },
+    ],
+    "nada":[],
+    "futuro":[
+        {
+            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
+            "weekDay": "Terça-feira",
+            "description": "Tesouro Prefixado 2022",
+            "type": "Aplicação",
+            "value": 1234.56,
+            "status": "Agendada"
+        },
+        {
+            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
+            "weekDay": "Terça-feira",
+            "description": "Tesouro Prefixado 2022",
+            "type": "Aplicação",
+            "value": 1234.56,
+            "status": "Agendada"
+        },
+    ],
+    "passado":[
+        {
+            "transactionDate": "2020-11-18T12:14:24.0000000-03:00",
+            "weekDay": "Quarta-feira",
+            "description": "Tesouro Prefixado 2022",
+            "type": "Aplicação",
+            "value": 57.41,
+            "status": "Solicitada"
+        },
+        {
+            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
+            "weekDay": "Terça-feira",
+            "description": "Tesouro Prefixado 2025",
+            "type": "Resgate",
+            "value": 1101.07,
+            "status": "Realizada"
+        },
+        {
+            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
+            "weekDay": "Terça-feira",
+            "description": "Tesouro Prefixado 2022",
+            "type": "Aplicação",
+            "value": 1234.56,
+            "status": "Cancelada"
+        },
+    ],
+    "categoria":[
+        {
+            "transactionDate": "2020-11-18T12:14:24.0000000-03:00",
+            "weekDay": "Quarta-feira",
+            "description": "Tesouro Prefixado 2022",
+            "type": "Aplicação",
+            "value": 57.41,
+            "status": "Solicitada"
+        },
+        {
+            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
+            "weekDay": "Terça-feira",
+            "description": "Tesouro Prefixado 2025",
+            "type": "Resgate",
+            "value": 1101.07,
+            "status": "Realizada"
+        },
+        {
+            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
+            "weekDay": "Terça-feira",
+            "description": "Tesouro Prefixado 2022",
+            "type": "Aplicação",
+            "value": 1234.56,
+            "status": "Cancelada"
+        },
+    ],
 }
