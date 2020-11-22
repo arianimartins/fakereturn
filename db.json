@@ -1,107 +1,109 @@
 {
-    "tudo":[
-        {
-            "transactionDate": "2020-11-18T12:14:24.0000000-03:00",
-            "weekDay": "Quarta-feira",
-            "description": "Tesouro Prefixado 2022",
-            "type": "Aplicação",
-            "value": 57.41,
-            "status": "Solicitada"
-        },
-        {
-            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
-            "weekDay": "Terça-feira",
-            "description": "Tesouro Prefixado 2025",
-            "type": "Resgate",
-            "value": 1101.07,
-            "status": "Realizada"
-        },
-        {
-            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
-            "weekDay": "Terça-feira",
-            "description": "Tesouro Prefixado 2022",
-            "type": "Aplicação",
-            "value": 1234.56,
-            "status": "Cancelada"
-        },
-        {
-            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
-            "weekDay": "Terça-feira",
-            "description": "Tesouro Prefixado 2022",
-            "type": "Aplicação",
-            "value": 1234.56,
-            "status": "Agendada"
-        },
-    ],
-    "nada":[],
-    "futuro":[
-        {
-            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
-            "weekDay": "Terça-feira",
-            "description": "Tesouro Prefixado 2022",
-            "type": "Aplicação",
-            "value": 1234.56,
-            "status": "Agendada"
-        },
-        {
-            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
-            "weekDay": "Terça-feira",
-            "description": "Tesouro Prefixado 2022",
-            "type": "Aplicação",
-            "value": 1234.56,
-            "status": "Agendada"
-        },
-    ],
-    "passado":[
-        {
-            "transactionDate": "2020-11-18T12:14:24.0000000-03:00",
-            "weekDay": "Quarta-feira",
-            "description": "Tesouro Prefixado 2022",
-            "type": "Aplicação",
-            "value": 57.41,
-            "status": "Solicitada"
-        },
-        {
-            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
-            "weekDay": "Terça-feira",
-            "description": "Tesouro Prefixado 2025",
-            "type": "Resgate",
-            "value": 1101.07,
-            "status": "Realizada"
-        },
-        {
-            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
-            "weekDay": "Terça-feira",
-            "description": "Tesouro Prefixado 2022",
-            "type": "Aplicação",
-            "value": 1234.56,
-            "status": "Cancelada"
-        },
-    ],
-    "categoria":[
-        {
-            "transactionDate": "2020-11-18T12:14:24.0000000-03:00",
-            "weekDay": "Quarta-feira",
-            "description": "Tesouro Prefixado 2022",
-            "type": "Aplicação",
-            "value": 57.41,
-            "status": "Solicitada"
-        },
-        {
-            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
-            "weekDay": "Terça-feira",
-            "description": "Tesouro Prefixado 2025",
-            "type": "Resgate",
-            "value": 1101.07,
-            "status": "Realizada"
-        },
-        {
-            "transactionDate": "2020-11-17T17:35:39.0000000-03:00",
-            "weekDay": "Terça-feira",
-            "description": "Tesouro Prefixado 2022",
-            "type": "Aplicação",
-            "value": 1234.56,
-            "status": "Cancelada"
-        },
-    ],
+   "tudo":[
+      {
+         "transactionDate":"2020-11-18T12:14:24.0000000-03:00",
+         "weekDay":"Quarta-feira",
+         "description":"Tesouro Prefixado 2022",
+         "type":"Aplicação",
+         "value":57.41,
+         "status":"Solicitada"
+      },
+      {
+         "transactionDate":"2020-11-17T17:35:39.0000000-03:00",
+         "weekDay":"Terça-feira",
+         "description":"Tesouro Prefixado 2025",
+         "type":"Resgate",
+         "value":1101.07,
+         "status":"Realizada"
+      },
+      {
+         "transactionDate":"2020-11-17T17:35:39.0000000-03:00",
+         "weekDay":"Terça-feira",
+         "description":"Tesouro Prefixado 2022",
+         "type":"Aplicação",
+         "value":1234.56,
+         "status":"Cancelada"
+      },
+      {
+         "transactionDate":"2020-11-17T17:35:39.0000000-03:00",
+         "weekDay":"Terça-feira",
+         "description":"Tesouro Prefixado 2022",
+         "type":"Aplicação",
+         "value":1234.56,
+         "status":"Agendada"
+      }
+   ],
+   "nada":[
+      
+   ],
+   "futuro":[
+      {
+         "transactionDate":"2020-11-17T17:35:39.0000000-03:00",
+         "weekDay":"Terça-feira",
+         "description":"Tesouro Prefixado 2022",
+         "type":"Aplicação",
+         "value":1234.56,
+         "status":"Agendada"
+      },
+      {
+         "transactionDate":"2020-11-17T17:35:39.0000000-03:00",
+         "weekDay":"Terça-feira",
+         "description":"Tesouro Prefixado 2022",
+         "type":"Aplicação",
+         "value":1234.56,
+         "status":"Agendada"
+      }
+   ],
+   "passado":[
+      {
+         "transactionDate":"2020-11-18T12:14:24.0000000-03:00",
+         "weekDay":"Quarta-feira",
+         "description":"Tesouro Prefixado 2022",
+         "type":"Aplicação",
+         "value":57.41,
+         "status":"Solicitada"
+      },
+      {
+         "transactionDate":"2020-11-17T17:35:39.0000000-03:00",
+         "weekDay":"Terça-feira",
+         "description":"Tesouro Prefixado 2025",
+         "type":"Resgate",
+         "value":1101.07,
+         "status":"Realizada"
+      },
+      {
+         "transactionDate":"2020-11-17T17:35:39.0000000-03:00",
+         "weekDay":"Terça-feira",
+         "description":"Tesouro Prefixado 2022",
+         "type":"Aplicação",
+         "value":1234.56,
+         "status":"Cancelada"
+      }
+   ],
+   "categoria":[
+      {
+         "transactionDate":"2020-11-18T12:14:24.0000000-03:00",
+         "weekDay":"Quarta-feira",
+         "description":"Tesouro Prefixado 2022",
+         "type":"Aplicação",
+         "value":57.41,
+         "status":"Solicitada"
+      },
+      {
+         "transactionDate":"2020-11-17T17:35:39.0000000-03:00",
+         "weekDay":"Terça-feira",
+         "description":"Tesouro Prefixado 2025",
+         "type":"Resgate",
+         "value":1101.07,
+         "status":"Realizada"
+      },
+      {
+         "transactionDate":"2020-11-17T17:35:39.0000000-03:00",
+         "weekDay":"Terça-feira",
+         "description":"Tesouro Prefixado 2022",
+         "type":"Aplicação",
+         "value":1234.56,
+         "status":"Cancelada"
+      }
+   ]
 }
