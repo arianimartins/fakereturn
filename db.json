@@ -97,13 +97,5 @@
          "value":1101.07,
          "status":"Realizada"
       },
-      {
-         "transactionDate":"2020-11-17T17:35:39.0000000-03:00",
-         "weekDay":"Terça-feira",
-         "description":"Tesouro Prefixado 2022",
-         "type":"Aplicação",
-         "value":1234.56,
-         "status":"Cancelada"
-      }
    ]
 }
