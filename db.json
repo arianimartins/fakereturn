@@ -1,6 +1,51 @@
 {
    "tudo":[
-      
+      {
+        "stockMarket": 4667,
+        "code": 166,
+        "name": "Tesouro Selic 2021",
+        "type": {
+            "code": 4,
+            "name": "LFT"
+        },
+        "selic": 210100,
+        "isin": "BRSTNCLF1R41",
+        "emissionDate": "2015-02-25T00:00:00.0000000-03:00",
+        "expirationDate": "2021-03-01T00:00:00.0000000-03:00",
+        "business": 1,
+        "baseValue": 10749.64,
+        "buyValue": 10750.73,
+        "buyRateValue": 0.055,
+        "saleValue": 10750.51,
+        "saleRateValue": 0,
+        "indexer": {
+            "code": 17,
+            "name": "SELIC"
+        }
+     },
+     {
+        "stockMarket": 4667,
+        "code": 173,
+        "name": "Tesouro Selic 2023",
+        "type": {
+            "code": 4,
+            "name": "LFT"
+        },
+        "selic": 210100,
+        "isin": "BRSTNCLF1R82",
+        "emissionDate": "2017-02-03T00:00:00.0000000-02:00",
+        "expirationDate": "2023-03-01T00:00:00.0000000-03:00",
+        "business": 1,
+        "baseValue": 10717.5,
+        "buyValue": 10720.76,
+        "buyRateValue": 0.132,
+        "saleValue": 10718.4,
+        "saleRateValue": 0,
+        "indexer": {
+            "code": 17,
+            "name": "SELIC"
+         }
+      }
    ],
    "nada1":[
       
