@@ -47,18 +47,38 @@
          }
       }
    ],
-   "nada1":[
-      
-   ],
-   "nada2":[
-      {}
-   ],
-   "nada3":{},
-   "erro":{
+   "erro1":{
+      "success": false,
+      "fields":[
+         {
+            "code": "ERR_TREASURE_TRADING_HOUR_CLOSED",
+            "parameter": ""
+         }
+      ]
+   },
+   "erro2":{
       "success": false,
       "fields":[
          {
             "code": "ERR_TREASURE_CLOSED_MARKET",
+            "parameter": ""
+         }
+      ]
+   },
+   "erro3":{
+      "success": false,
+      "fields":[
+         {
+            "code": "ERR_TREASURE_GET_DATA",
+            "parameter": ""
+         }
+      ]
+   },
+   "erro3":{
+      "success": false,
+      "fields":[
+         {
+            "code": "QUALQUER_COISA",
             "parameter": ""
          }
       ]
